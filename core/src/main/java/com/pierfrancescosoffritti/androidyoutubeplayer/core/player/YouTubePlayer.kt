@@ -57,4 +57,5 @@ interface YouTubePlayer {
 
   fun addListener(listener: YouTubePlayerListener): Boolean
   fun removeListener(listener: YouTubePlayerListener): Boolean
+  fun setPlaybackQuality(quality: String)
 }
