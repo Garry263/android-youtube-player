@@ -109,6 +109,7 @@ function setPlaybackQuality(playbackQuality) {
 
           startSendCurrentTimeInterval();
           sendVideoData(player);
+          sendVideoQuality(player);
           return;
 
         case YT.PlayerState.PAUSED:
